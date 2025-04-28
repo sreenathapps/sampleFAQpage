@@ -1,1 +1,23 @@
 /* Write your code here. */
+.question-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: 3px solid #cb8805;
+  border-radius: 3em;
+  width: 3em;
+  height: 3em;
+  font-size: 1em;
+}
+.clicked {
+  background-color: #ffffff;
+  color: #cb8805;
+  outline: none;
+}
+.un-clicked {
+  background-color: #cb8805;
+  color: #ffffff;
+  cursor: pointer;
+}
